@@ -6,6 +6,7 @@ export default {
     extend: {
       fontFamily: {
         poppins: "'Raleway', sans-serif",
+        Inter: "Inter', sans-serif",
       },
     },
   },
