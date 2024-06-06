@@ -9,13 +9,22 @@ import { FaArrowUpFromWaterPump } from "react-icons/fa6";
 import { GiParkBench } from "react-icons/gi";
 import { GrCompliance } from "react-icons/gr";
 import { GiForklift } from "react-icons/gi";
+import { TbBrandIntercom } from "react-icons/tb";
+import { GrHostMaintenance } from "react-icons/gr";
+import { GiNuclearWaste } from "react-icons/gi";
+import { MdLocalLaundryService } from "react-icons/md";
+import { FaWifi } from "react-icons/fa6";
+import { PiTelevisionSimpleBold } from "react-icons/pi";
+import { FaGasPump } from "react-icons/fa";
+import { FaRunning } from "react-icons/fa";
+
 const Amenities = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="w-[1160px] h-[600px] border mt-10 p-8">
-        <h1 className="text-base font-semibold">Amenities</h1>
+      <div className="w-[1160px] h-[550px] border rounded mt-10 p-8 bg-[#F9FAFB]">
+        <h1 className="text-2xl font-semibold text-[#000]">Amenities</h1>
         {/* 1st row */}
-        <div className="flex mt-2 justify-between">
+        <div className="flex mt-16 justify-between">
           <div className="text-base font-medium flex gap-2">
             <LuDatabaseBackup className="mt-1" />
             <h1>Power Back Up</h1>
@@ -35,7 +44,7 @@ const Amenities = () => {
         </div>
 
         {/* 2nd row */}
-        <div className="flex mt-10 justify-between">
+        <div className="flex mt-16 justify-between">
           <div className="text-base font-medium flex gap-2">
             <FaSquareParking className="mt-1" />
             <h1>Park</h1>
@@ -54,7 +63,7 @@ const Amenities = () => {
           </div>
         </div>
         {/* 3rd row */}
-        <div className="flex mt-10 justify-between">
+        <div className="flex mt-16 justify-between">
           <div className="text-base font-medium flex gap-2">
             <GiParkBench className="mt-1" />
             <h1>Private Terrace/Garden</h1>
@@ -70,6 +79,44 @@ const Amenities = () => {
           <div className="text-base font-medium flex gap-2">
             <FaSquareParking className="mt-1 text-xl" />
             <h1>Visitor Parking</h1>
+          </div>
+        </div>
+        {/* 4th row */}
+        <div className="flex mt-16 justify-between">
+          <div className="text-base font-medium flex gap-2">
+            <TbBrandIntercom className="mt-1" />
+            <h1>Intercom Facility</h1>
+          </div>
+          <div className="text-base font-medium flex gap-2">
+            <GrHostMaintenance className="mt-1 text-xl" />
+            <h1>Maintenance Staff</h1>
+          </div>
+          <div className="text-base font-medium flex gap-2">
+            <GiNuclearWaste className="mt-1 text-xl" />
+            <h1>Waste Disposal</h1>
+          </div>
+          <div className="text-base font-medium flex gap-2">
+            <MdLocalLaundryService className="mt-1 text-xl" />
+            <h1>Laundry Service</h1>
+          </div>
+        </div>
+        {/* 5th row */}
+        <div className="flex mt-16 justify-between">
+          <div className="text-base font-medium flex gap-2">
+            <FaWifi className="mt-1" />
+            <h1>Internet/Wi-Fi Connectivity</h1>
+          </div>
+          <div className="text-base font-medium flex gap-2">
+            <PiTelevisionSimpleBold className="mt-1 text-xl" />
+            <h1>DTH Television Facility</h1>
+          </div>
+          <div className="text-base font-medium flex gap-2">
+            <FaGasPump className="mt-1 text-xl" />
+            <h1>Piped Gas</h1>
+          </div>
+          <div className="text-base font-medium flex gap-2">
+            <FaRunning className="mt-1 text-xl" />
+            <h1>Jogging and Strolling Track</h1>
           </div>
         </div>
       </div>
