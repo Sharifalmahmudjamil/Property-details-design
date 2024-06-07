@@ -1,8 +1,12 @@
 import { IoLocationOutline } from "react-icons/io5";
+import pic1 from "../../../Image/pic1.jpg";
+import Ellipse1 from "../../../Image/Ellipse 7.jpg";
+import small1 from "../../../Image/smallpic1.jpg";
+import small2 from "../../../Image/smallpic2.jpg";
 const Banner = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="flex gap-36 mt-12">
+      <div className="flex lg:gap-36 mt-12">
         <div className="">
           <h1 className="text-xl font-semibold text-[#010101]">
             3 BHK Builder Floor for Sale in Site Ram Bazar Hyderabad
@@ -18,17 +22,17 @@ const Banner = () => {
         </div>
       </div>
       {/* 2nd section */}
-      <div className="flex gap-20 mt-5">
+      <div className=" grid grid-cols-1 lg:grid-cols-2 gap-72 mt-5">
         <div className="w-[700px] h-[100px]">
           <img
-            className=" w-[700px] h-[400px]"
-            src="../../../Image/pic1.jpg"
+            className=" lg:w-[700px] w-[430px] h-[400px]"
+            src={pic1}
             alt=""
           />
         </div>
 
         {/* right side */}
-        <div className="w-[380px] h-[490px] border p-5 bg-[#ECF5FF]">
+        <div className="lg:w-[380px] h-[490px] border p-5 bg-[#ECF5FF]">
           <h1 className="text-base font-normal text-[#6B7280]">
             property value
           </h1>
@@ -50,16 +54,8 @@ const Banner = () => {
           </div>
           <div className="w-[340px] h-[26px] border rounded-full mt-7 bg-[#EEE]">
             <div className="flex justify-between">
-              <img
-                className="w-[24px] h-[24px]"
-                src="../../../Image/Ellipse 7.jpg"
-                alt=""
-              />
-              <img
-                className="w-[24px] h-[24px]"
-                src="../../../Image/Ellipse 7.jpg"
-                alt=""
-              />
+              <img className="w-[24px] h-[24px]" src={Ellipse1} alt="" />
+              <img className="w-[24px] h-[24px]" src={Ellipse1} alt="" />
             </div>
             <div className="flex justify-between">
               <h1>$ 280k</h1>
@@ -72,19 +68,15 @@ const Banner = () => {
         </div>
       </div>
       <div>
-        <div className="w-[700px] h-[100px] flex gap-3 -mt-10">
+        <div className="w-[700px] h-[100px] grid grid-cols-2 lg:grid-cols-3 lg:gap-3 lg:-mt-10">
+          <img className="lg:w-[230px] h-[140px]" src={small1} alt="" />
           <img
-            className="w-[230px] h-[140px]"
-            src="../../../Image/smallpic1.jpg"
-            alt=""
-          />
-          <img
-            className="w-[230px] h-[140px]"
-            src="../../../Image/smallpic2.jpg"
+            className="lg:w-[230px] h-[140px] lg:-mx-0 -mx-32 "
+            src={small2}
             alt=""
           />
           <div
-            className="hero  w-[230px] h-[140px]"
+            className="hero  w-[230px] h-[140px] lg:mt-0 mt-5"
             style={{
               backgroundImage: "url(https://i.ibb.co/V2xQt2t/smallpic3.jpg)",
             }}

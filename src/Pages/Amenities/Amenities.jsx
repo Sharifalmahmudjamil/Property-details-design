@@ -21,10 +21,10 @@ import { FaRunning } from "react-icons/fa";
 const Amenities = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
-      <div className="w-[1160px] h-[550px] border rounded mt-10 p-8 bg-[#F9FAFB]">
+      <div className="lg:w-[1160px] lg:h-[550px] h-[700px] border rounded mt-10 p-8 bg-[#F9FAFB]">
         <h1 className="text-2xl font-semibold text-[#000]">Amenities</h1>
         {/* 1st row */}
-        <div className="flex mt-16 justify-between">
+        <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 ">
           <div className="text-base font-medium flex gap-2">
             <LuDatabaseBackup className="mt-1" />
             <h1>Power Back Up</h1>
@@ -44,7 +44,7 @@ const Amenities = () => {
         </div>
 
         {/* 2nd row */}
-        <div className="flex mt-16 justify-between">
+        <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 ">
           <div className="text-base font-medium flex gap-2">
             <FaSquareParking className="mt-1" />
             <h1>Park</h1>
@@ -63,7 +63,7 @@ const Amenities = () => {
           </div>
         </div>
         {/* 3rd row */}
-        <div className="flex mt-16 justify-between">
+        <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 ">
           <div className="text-base font-medium flex gap-2">
             <GiParkBench className="mt-1" />
             <h1>Private Terrace/Garden</h1>
@@ -82,7 +82,7 @@ const Amenities = () => {
           </div>
         </div>
         {/* 4th row */}
-        <div className="flex mt-16 justify-between">
+        <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 ">
           <div className="text-base font-medium flex gap-2">
             <TbBrandIntercom className="mt-1" />
             <h1>Intercom Facility</h1>
@@ -101,7 +101,7 @@ const Amenities = () => {
           </div>
         </div>
         {/* 5th row */}
-        <div className="flex mt-16 justify-between">
+        <div className="grid grid-cols-2 lg:grid-cols-4 mt-16 ">
           <div className="text-base font-medium flex gap-2">
             <FaWifi className="mt-1" />
             <h1>Internet/Wi-Fi Connectivity</h1>

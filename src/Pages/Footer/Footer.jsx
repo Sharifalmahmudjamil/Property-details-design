@@ -1,13 +1,10 @@
+import logo from "../../../Image/logo.png";
 const Footer = () => {
   return (
     <div>
       <footer className="footer p-10 bg-[#ECF5FF] text-base-content mt-14">
         <aside>
-          <img
-            className="w-[50px] h-[80px]"
-            src="../../../Image/logo.png"
-            alt=""
-          />
+          <img className="w-[50px] h-[80px]" src={logo} alt="" />
           <p className="text-base font-medium text-[#475467]">
             Design amazing digital experiences
             <br />

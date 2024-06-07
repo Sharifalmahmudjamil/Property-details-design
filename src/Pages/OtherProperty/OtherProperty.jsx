@@ -4,6 +4,10 @@ import {
   IoIosArrowDropleftCircle,
   IoIosArrowDroprightCircle,
 } from "react-icons/io";
+import card1 from "../../../Image/card1.jpg";
+import card2 from "../../../Image/card2.jpg";
+import card3 from "../../../Image/card 3.jpg";
+import gallery from "../../../Image/Gallery.png";
 
 const OtherProperty = () => {
   return (
@@ -21,18 +25,14 @@ const OtherProperty = () => {
             {/* card */}
             <div className=" w-96  bg-[#F9FAFB]  relative">
               <figure>
-                <img src="../../../Image/card 3.jpg" alt="Shoes" />
+                <img src={card3} alt="Shoes" />
               </figure>
               <div className="card-body">
                 <div className="absolute -mt-40 -ml-14">
                   <IoIosArrowDropleftCircle className="w-11 h-11 text-[#5490CB]" />
                 </div>
                 <div className="border w-14 h-7 flex gap-2 p-1 bg-[#FDF0E7] rounded absolute -mt-20">
-                  <img
-                    className="w-[20px] h-[20px]"
-                    src="../../../Image/Gallery.png"
-                    alt=""
-                  />
+                  <img className="w-[20px] h-[20px]" src={gallery} alt="" />
                   <p className="text-[14px] font-semibold">20</p>
                 </div>
                 <div className="flex gap-28 ">
@@ -62,15 +62,11 @@ const OtherProperty = () => {
             {/* card */}
             <div className=" w-96  bg-[#F9FAFB]  relative">
               <figure>
-                <img src="../../../Image/card1.jpg" alt="Shoes" />
+                <img src={card1} alt="Shoes" />
               </figure>
               <div className="card-body">
                 <div className="border w-14 h-7 flex gap-2 p-1 bg-[#FDF0E7] rounded absolute -mt-20">
-                  <img
-                    className="w-[20px] h-[20px]"
-                    src="../../../Image/Gallery.png"
-                    alt=""
-                  />
+                  <img className="w-[20px] h-[20px]" src={gallery} alt="" />
                   <p className="text-[14px] font-semibold">20</p>
                 </div>
                 <div className="flex gap-28 ">
@@ -100,18 +96,14 @@ const OtherProperty = () => {
             {/* card */}
             <div className=" w-96  bg-[#F9FAFB]  relative">
               <figure>
-                <img src="../../../Image/card2.jpg" alt="Shoes" />
+                <img src={card2} alt="Shoes" />
               </figure>
               <div className="card-body">
                 <div className="absolute -mt-44 ml-[335px]">
                   <IoIosArrowDroprightCircle className="w-11 h-11 text-[#5490CB]" />
                 </div>
                 <div className="border w-14 h-7 flex gap-2 p-1 bg-[#FDF0E7] rounded absolute -mt-20">
-                  <img
-                    className="w-[20px] h-[20px]"
-                    src="../../../Image/Gallery.png"
-                    alt=""
-                  />
+                  <img className="w-[20px] h-[20px]" src={gallery} alt="" />
                   <p className="text-[14px] font-semibold">20</p>
                 </div>
                 <div className="flex gap-28 ">

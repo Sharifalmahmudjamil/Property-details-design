@@ -4,16 +4,16 @@ import { MdOutlineBalcony } from "react-icons/md";
 import { GiFurnace } from "react-icons/gi";
 const OverView = () => {
   return (
-    <div className="max-w-screen-xl mx-auto mt-20 flex gap-20">
-      <div className="w-[700px] h-[320px] border p-6 bg-[#F9FAFB] rounded">
+    <div className="max-w-screen-xl mx-auto lg:mt-20 mt-52 flex gap-20">
+      <div className="lg:w-[700px] lg:h-[320px]  border p-6 bg-[#F9FAFB] rounded">
         <h1 className="text-2xl font-bold text-[#000] mb-4 ">Overview</h1>
         {/* 2nd */}
-        <div className="w-[650px] h-[50px] bg-white shadow-2xl flex justify-between p-3">
+        <div className="lg:w-[650px] h-[50px] bg-white shadow-2xl grid grid-cols-2 lg:grid-cols-4  lg:p-3">
           <div className="flex gap-1 text-base font-bold text-[#303030]">
             <FaBed className=" text-lg" />
             <h1>2 BedS</h1>
           </div>
-          <div className="flex gap-1 text-base font-bold text-[#303030]">
+          <div className="flex gap-1 text-base font-bold text-[#303030] lg:-mx-0 -mx-24">
             <FaBath className=" text-lg" />
             <h1>2 Bath </h1>
           </div>
@@ -21,14 +21,14 @@ const OverView = () => {
             <MdOutlineBalcony className=" text-lg" />
             <h1>2 Balcony</h1>
           </div>
-          <div className="flex gap-1 text-base font-bold text-[#303030]">
+          <div className="flex gap-1 text-base font-bold text-[#303030] lg:-mx-0 -mx-24">
             <GiFurnace className=" text-lg" />
             <h1>Fully Furnished</h1>
           </div>
         </div>
 
         {/* 3rd */}
-        <div className="w-[650px] h-[80px]  mt-8 flex justify-between">
+        <div className="w-[650px] h-[80px]  mt-8 grid grid-cols-3 lg:grid-cols-4 gap-12">
           <h1>
             <span className="font-normal text-base text-[#5C5C5C]">
               Carpet Area
@@ -43,8 +43,8 @@ const OverView = () => {
             </span>
           </h1>
 
-          <h1>
-            <span className="font-normal text-base text-[#5C5C5C]">Floor</span>{" "}
+          <h1 className="lg:-mx-0 -mx-20">
+            <span className="font-normal text-base  text-[#5C5C5C]">Floor</span>{" "}
             <br />{" "}
             <span className="font-bold text-base text-[#101010]">
               Second (Out of 6th floor)

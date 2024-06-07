@@ -1,3 +1,4 @@
+import home from "../../../Image/Home.png";
 const OtherServices = () => {
   return (
     <div className="max-w-screen-xl mx-auto">
@@ -8,11 +9,7 @@ const OtherServices = () => {
         <div className="card card-side rounded-none bg-[#ECF5FF]  w-[380px] h-[220px] p-5">
           <div></div>
           <figure>
-            <img
-              className="w-[36px] h-[36px] -mt-12"
-              src="../../../Image/Home.png"
-              alt="Movie"
-            />
+            <img className="w-[36px] h-[36px] -mt-12" src={home} alt="Movie" />
           </figure>
 
           <div className="card-body">
@@ -28,11 +25,7 @@ const OtherServices = () => {
         <div className="card card-side rounded-none bg-[#ECF5FF]  w-[380px] h-[220px] p-5">
           <div></div>
           <figure>
-            <img
-              className="w-[36px] h-[36px] -mt-12"
-              src="../../../Image/Home.png"
-              alt="Movie"
-            />
+            <img className="w-[36px] h-[36px] -mt-12" src={home} alt="Movie" />
           </figure>
 
           <div className="card-body">
@@ -47,11 +40,7 @@ const OtherServices = () => {
         <div className="card card-side rounded-none bg-[#ECF5FF]  w-[380px] h-[220px] p-5">
           <div></div>
           <figure>
-            <img
-              className="w-[36px] h-[36px] -mt-12"
-              src="../../../Image/Home.png"
-              alt="Movie"
-            />
+            <img className="w-[36px] h-[36px] -mt-12" src={home} alt="Movie" />
           </figure>
 
           <div className="card-body">

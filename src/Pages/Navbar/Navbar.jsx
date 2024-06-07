@@ -1,3 +1,4 @@
+import logo from "../../../Image/logo.png";
 const Navbar = () => {
   return (
     <div>
@@ -46,11 +47,7 @@ const Navbar = () => {
           </div>
         </div>
 
-        <img
-          className="w-[50px] h-[60px] lg:mx-32"
-          src="../../../Image/logo.png"
-          alt=""
-        />
+        <img className="w-[50px] h-[60px] lg:mx-32" src={logo} alt="" />
         <div className="navbar-end gap-8 mx-14 text-lg font-semibold">
           <a className="  text-black">Manage Rentals</a>
           <a className="  text-black">Sign In</a>
